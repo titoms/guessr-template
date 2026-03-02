@@ -1,0 +1,31 @@
+{
+  "header": {
+    "play": "Play",
+    "howToPlay": "How to Play",
+    "faq": "FAQ",
+    "stats": "Statistics",
+    "settings": "Settings",
+    "about": "About"
+  },
+  "footer": {
+    "legal": "Terms & Privacy",
+    "contact": "Contact",
+    "rights": "All rights reserved"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "language": "Language",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "ads": {
+    "consent": "We use cookies to improve your experience and show personalized ads.",
+    "accept": "Accept all",
+    "refuse": "Refuse"
+  }
+}

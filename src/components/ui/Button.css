@@ -1,0 +1,44 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  border: 2px solid transparent;
+  font-family: inherit;
+  gap: 8px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-sm { padding: 6px 12px; font-size: 0.8rem; }
+.btn-md { padding: 10px 20px; font-size: 0.95rem; }
+.btn-lg { padding: 14px 28px; font-size: 1.1rem; border-radius: var(--radius-lg); }
+
+.btn-full-width { width: 100%; }
+
+.btn-primary { background: var(--color-primary); color: white; }
+.btn-primary:hover { background: var(--color-primary-light); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
+.btn-secondary { background: var(--color-surface-dark); color: white; border: 1px solid var(--glass-border-dark); }
+.btn-secondary:hover { background: var(--color-primary); }
+
+.btn-accent { background: var(--color-accent); color: white; }
+.btn-accent:hover { background: var(--color-accent-light); transform: translateY(-2px); }
+
+.btn-glass { 
+  background: var(--glass-bg-current); 
+  backdrop-filter: blur(12px); 
+  -webkit-backdrop-filter: blur(12px);
+  color: var(--color-text); 
+  border: 1px solid var(--glass-border-current); 
+}
+.btn-glass:hover { background: var(--color-primary); color: white; border-color: transparent; }
+
+.btn-ghost { background: transparent; color: var(--color-text); }
+.btn-ghost:hover { background: var(--color-primary-light); color: white; }

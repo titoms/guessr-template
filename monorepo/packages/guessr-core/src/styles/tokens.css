@@ -1,0 +1,66 @@
+:root {
+  /* Color Palette - Premium Violet & Teal */
+  --color-primary: #7f19e6;
+  --color-primary-light: #9d4edd;
+  --color-primary-dark: #5a189a;
+  
+  --color-accent: #048c7f;
+  --color-accent-light: #26a69a;
+  --color-accent-dark: #00695c;
+
+  --color-bg-light: #f7f6f8;
+  --color-bg-dark: #120b1a;
+  
+  --color-surface-light: #ffffff;
+  --color-surface-dark: #1d1425;
+  
+  --color-text-light: #1a1122;
+  --color-text-dark: #f1f1f1;
+  --color-text-muted: #8e8e93;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-bg-dark: rgba(29, 20, 37, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --glass-border-dark: rgba(255, 255, 255, 0.1);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.12);
+  
+  /* Borders */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme='dark'] {
+  --color-bg: var(--color-bg-dark);
+  --color-surface: var(--color-surface-dark);
+  --color-text: var(--color-text-dark);
+  --glass-bg-current: var(--glass-bg-dark);
+  --glass-border-current: var(--glass-border-dark);
+}
+
+[data-theme='light'] {
+  --color-bg: var(--color-bg-light);
+  --color-surface: var(--color-surface-light);
+  --color-text: var(--color-text-light);
+  --glass-bg-current: var(--glass-bg);
+  --glass-border-current: var(--glass-border);
+}
+
+/* Default to dark mode or system preference */
+:root {
+  --color-bg: var(--color-bg-dark);
+  --color-surface: var(--color-surface-dark);
+  --color-text: var(--color-text-dark);
+  --glass-bg-current: var(--glass-bg-dark);
+  --glass-border-current: var(--glass-border-dark);
+}

@@ -1,0 +1,15 @@
+{
+  "name": "GuessrTemplate",
+  "short_name": "Guessr",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
